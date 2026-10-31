@@ -16,22 +16,21 @@ These Terms are an agreement between you and [[OWNER: legal entity name]] ("we",
 ## 2. Not medical advice
 - CalDefiq is a general **nutrition and fitness tracking tool**. It is **not** a medical device and does not diagnose, treat or prevent any condition.
 - Calorie targets, AI photo estimates, food database values, calories burned, step counts and walk distances are **estimates** and can be wrong.
-- The Nutrition Assistant gives general information only. It is not a doctor, dietitian or therapist.
+- The CalDefiq AI assistant gives general information only, and its AI answers can be wrong. It is not a doctor, dietitian or therapist.
 - Talk to a qualified health professional before starting a diet or exercise plan, especially if you are pregnant or breastfeeding, have a medical condition, take medication, or have (or had) an eating disorder.
 - If you are in crisis or thinking about harming yourself, contact local emergency services right away.
 
 ## 3. Your account and your content
 - You keep ownership of everything you log or upload (meals, photos, notes, recipes and so on).
-- You give us permission to store and process that content **only to run CalDefiq for you**, as described in the Privacy Policy. This includes sending meal photos to our AI provider (OpenAI) for analysis when you use AI scanning.
+- You give us permission to store and process that content **only to run CalDefiq for you**, as described in the Privacy Policy. This includes sending meal photos to our AI provider (OpenAI) for analysis when you use AI scanning, and your assistant messages (plus a 7-day summary of your records, only if you switch that on) when you use the CalDefiq AI assistant.
 - Do not upload anything illegal, anything you don't have the right to share, or images of other people without their permission.
 
 ## 4. Free plan, Premium and daily limits
-- CalDefiq has a free plan and an optional paid **Premium** subscription. The current limits are shown in the app (for example, AI photo scans and barcode lookups per day). Daily allowances reset at midnight in your own time zone.
+- CalDefiq has a free plan and an optional paid **Premium** subscription. The current limits are shown in the app (for example, AI photo scans, assistant messages and barcode lookups per day, and for Premium also per month). Daily allowances reset at midnight in your own time zone; monthly ones at midnight on the 1st.
 - We may change features and limits. If we reduce what a paid plan includes, we will tell you in advance and you can cancel.
 - **CalDefiq has no ads on any plan, and never will.**
 
 ## 5. Subscriptions and payment (Apple)
-*Owner: keep this section only once real App Store In-App Purchases are working. See `SUBSCRIPTION_DISCLOSURE.md`.*
 - Premium is sold as an auto-renewing subscription through Apple's App Store: **US$6.99 per month** or **US$49.99 per year** (or the equivalent price Apple shows for your country).
 - Payment is charged to your **Apple ID** when you confirm the purchase.
 - The subscription **renews automatically** for the same period and price unless you turn off auto-renew **at least 24 hours before** the end of the current period. Your Apple ID is charged for the renewal within the 24 hours before the period ends.

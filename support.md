@@ -3,10 +3,8 @@ title: Support
 permalink: /support/
 ---
 
-# CalDefiq Support (page content)
+# CalDefiq Support
 
-> Put this on a public web page and use its address as the **Support URL** in App Store Connect. Apple requires the page to work and to show a way to contact you.
-> Suggested address: [[OWNER: confirm domain]]/support (caldefiq.com is only a PROPOSED domain; it is not confirmed as yours).
 
 ---
 
@@ -37,7 +35,7 @@ On the sign-in screen tap **Forgot Password?** and follow the 6-digit code steps
 They are estimates. Portions, sauces and cooking oil are hard to see in a photo. Always check the result and edit it before you log it. You can also log food by search or barcode.
 
 **Why can't I scan more today?**
-The free plan includes 1 AI photo scan, 3 assistant messages and 3 barcode lookups a day. Premium includes 10 AI scans a day (up to 250 a month), 20 assistant messages a day (up to 350 a month) and unlimited barcodes. Failed scans don't count. Daily allowances reset at **midnight in your own time zone**; monthly ones at midnight on the 1st.
+The free plan includes 2 AI photo scans, 3 assistant messages and 3 barcode lookups a day. Premium includes 10 AI scans a day (up to 250 a month), 20 assistant messages a day (up to 350 a month) and unlimited barcodes. Failed scans don't count. Daily allowances reset at **midnight in your own time zone**; monthly ones at midnight on the 1st.
 
 **Are my meal photos stored?**
 No. Meal photos are sent securely to our AI provider (OpenAI) to be analysed and are not kept by CalDefiq. Only the result is saved. Progress photos you choose to save are kept in a private storage area only you can access.
@@ -60,7 +58,6 @@ Steps come from your iPhone's motion sensor. Walk distance uses GPS, which can d
 ---
 
 ## Premium and billing
-*(Show this part once Premium is on sale.)*
 
 **How do I cancel Premium?**
 iPhone **Settings → [your name] → Subscriptions → CalDefiq → Cancel Subscription.** Premium stays on until the end of the period you paid for.

@@ -62,11 +62,11 @@ Country, region, language/locale, time zone, currency, units (kg/lb, cm/ft, ml/f
 ### 2.8 AI scan records
 For each AI scan we keep: the date and time, status, the AI's result, the result you confirmed, and technical cost data (number of AI "tokens" used and the estimated cost). If you delete a scan from your history, we erase its content and hide it, but keep a bare record (time, status, tokens, cost) so daily limits and spending caps cannot be reset. That bare record is deleted when you delete your account.
 
-### 2.9 Nutrition Assistant messages
-If you use the Nutrition Assistant, we store your messages and its replies so you can see the conversation. To keep people safe, messages about topics such as medical conditions, eating disorders or self-harm are labelled so the assistant can respond carefully. You can clear your history in the app; cleared messages are emptied and hidden, and fully deleted when you delete your account.
+### 2.9 CalDefiq AI assistant messages
+If you use the CalDefiq AI assistant, we store your messages and its replies so you can see the conversation. To keep people safe, messages about topics such as medical conditions, eating disorders or self-harm are labelled so the assistant can respond carefully. You can clear your history in the app; cleared messages are emptied and hidden, and fully deleted when you delete your account.
 **Using your records (optional, off by default).** The assistant can only read your CalDefiq records if you switch on **Use my CalDefiq records** in the assistant. It then reads your meals, water, daily step totals (which can include steps from Apple Health, if you connected it), workouts, walks, weigh-ins and goals from the last 7 days, read-only. You can switch it off at any time. The same applies to the optional weekly progress report.
 
-**AI answers.** When AI answers are on, your message and, only if you switched on records, that 7-day summary are sent to **OpenAI** to write the reply. We send no name, email or account ID. The assistant can suggest adding water or a food, but nothing is added unless you tap to confirm.
+**AI answers.** The assistant's answers are written by AI: your message and, only if you switched on records, that 7-day summary are sent to **OpenAI** to write the reply. A few questions (such as "how many calories do I have left?") are answered by CalDefiq itself without AI. We send no name, email or account ID. The assistant can suggest adding water or a food, but nothing is added unless you tap to confirm.
 
 ### 2.10 Food budget and shopping
 If you use the Budget Planner, we store your budget, food spending you enter (amount, currency, category, note), ingredient prices, pantry items and shopping list.
@@ -86,13 +86,11 @@ Reminders are **local notifications** scheduled on your phone. They are off by d
 - No analytics or tracking SDKs.
 - No contacts, microphone recordings, browsing history or messages from other apps.
 - No payment card details.
-- No crash-reporting service at the moment. *(Owner: if you add one, such as Sentry, update this section. See `CRASH_REPORTING_PLAN.md`.)*
+- No crash-reporting service.
 
 ---
 
 ## 3. Apple Health
-
-*Owner: built in the code (read-only), but it only works in CalDefiq's own iOS build and needs migration 0011. Publish this section with the first release that includes it.*
 
 If you choose to connect Apple Health, CalDefiq will **read** (never write) these data types: **steps, walking + running distance, workouts and active energy**. Connecting is **optional**; the app works without it, and you can turn access off at any time in the iPhone **Settings → Health → Data Access & Devices → CalDefiq**.
 
@@ -114,8 +112,6 @@ If you switch on **Use my CalDefiq records** for the assistant, your daily step 
 
 ## 4. Home Screen widgets
 
-*Owner: built in the code, but it only works in CalDefiq's own iOS build. Publish this section with the first release that includes it.*
-
 CalDefiq widgets show a summary (calories left, protein, carbs, fat, steps and water for today) on your Home Screen. To do this, the app shares a small summary with the widget **on your phone only** (through an iOS "App Group"). Anyone who can see your screen may see what the widget shows. When you log out, the widget stops showing your numbers and asks you to log in.
 
 ---
@@ -126,8 +122,8 @@ We use these service providers ("processors") to run CalDefiq. They may only use
 
 | Provider | What they do | What they receive |
 |---|---|---|
-| **Supabase** | Hosts our database, sign-in, private photo storage and server functions. | All account data described above. According to the project's configuration, the database is in the AWS region **ap-northeast-2 (Seoul, South Korea)**. |
-| **OpenAI** | Analyses meal photos when you use AI scanning; writes assistant replies and weekly reports when AI answers are on. | The photo (and, for Before & After, the names of the foods from your earlier scan); for the assistant, your message and, only if you switched on records, a 7-day summary of your records (section 2.9). Not your name or email. We ask OpenAI not to store the request (`store: false`). Under OpenAI's API terms it may still keep API data for a limited time (currently stated as up to 30 days) to detect abuse. [[OWNER: confirm against OpenAI's current API data-usage policy and any data-processing agreement you sign]] |
+| **Supabase** | Hosts our database, sign-in, private photo storage and server functions. | All account data described above. The database is in the AWS region **ap-northeast-2 (Seoul, South Korea)**. |
+| **OpenAI** | Analyses meal photos when you use AI scanning; writes assistant replies and weekly progress reports. | The photo (and, for Before & After, the names of the foods from your earlier scan); for the assistant, your message and, only if you switched on records, a 7-day summary of your records (section 2.9). Not your name or email. We ask OpenAI not to store the request (`store: false`). OpenAI may still keep API data for a limited time to detect abuse, as described in its API data-usage policy. [[OWNER: confirm OpenAI's current API data-retention terms and any data-processing agreement you sign]] |
 | **USDA FoodData Central** | Food nutrition database. | Search words and food names only, sent from our server. |
 | **Open Food Facts** | Packaged-product database. | Barcode numbers only, sent from our server. |
 | **Apple** | Sign in with Apple, App Store payments, maps shown during walks, and turning a location into a country code on your phone. | What you share with Apple under Apple's own privacy policy. |
@@ -152,7 +148,7 @@ Our servers and providers may be in countries other than yours (for example Sout
 ## 9. Your rights and choices
 - **See and export your data:** Settings (gear icon on the Home tab) → Data & Privacy → **Export my data** (a copy in JSON format).
 - **Correct your data:** edit it in the app.
-- **Delete your data:** delete single entries in the app, or delete everything with Settings (gear icon on the Home tab) → Data & Privacy → **Delete account**. See `ACCOUNT_DELETION.md`.
+- **Delete your data:** delete single entries in the app, or delete everything with Settings (gear icon on the Home tab) → Data & Privacy → **Delete account**.
 - **Permissions:** you can turn camera, photos, location, motion and notifications on or off at any time in the iPhone Settings app.
 - **Contact us** at [[OWNER: support / privacy email]] for any other request. Depending on where you live (for example the EU, UK or California), you may have more rights, including the right to complain to your local data-protection authority.
 
