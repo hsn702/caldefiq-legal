@@ -4,7 +4,7 @@ title: CalDefiq
 
 # CalDefiq
 
-Calorie tracking with AI food scanning, made in the UAE.
+Calorie and nutrition tracking with AI food scanning. No ads, ever.
 
 - [Support](support/)
 - [Privacy Policy](privacy/)

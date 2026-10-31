@@ -10,13 +10,13 @@ permalink: /support/
 
 ## Need help with CalDefiq?
 
-Email us at **[caldefiq@gmail.com](mailto:caldefiq@gmail.com)**. We usually reply within [[OWNER: e.g. 2 business days]].
+Email us at **[caldefiq@gmail.com](mailto:caldefiq@gmail.com)**. We aim to reply within 2 business days. You can also email us from the app: **Profile → Help & Support → Email support** (open Profile with the person or gear icon at the top of the Home tab).
 
 To help us help you, please include:
 - your iPhone model and iOS version;
-- the CalDefiq version (shown at the bottom of the **Settings** screen);
+- the CalDefiq version (shown at the bottom of the **Profile** screen);
 - what you did, what you expected, and what happened (a screenshot helps);
-- the email you sign in with (**never** send us your password or a sign-in code).
+- the email you sign in with (**never** send us your password or a verification code).
 
 ---
 
@@ -44,16 +44,16 @@ No. Meal photos are sent securely to our AI provider (OpenAI) to be analysed and
 No. CalDefiq has no ads on any plan, ever.
 
 **How do I turn reminders on or off?**
-**Settings (gear icon on the Home tab) → Notifications.** Reminders are off until you turn them on, and you get at most 2 a day.
+**Profile → Notifications.** Reminders are off until you turn them on, and you get at most 2 a day.
 
 **Steps or walk distance look wrong.**
 Steps come from your iPhone's motion sensor. Walk distance uses GPS, which can drift in cities or indoors. Check that CalDefiq has **Motion & Fitness** and **Location** permission in iPhone **Settings → CalDefiq**.
 
 **How do I export my data?**
-**Settings (gear icon on the Home tab) → Data & Privacy → Export my data.**
+**Profile → Data & Privacy → Export my data.**
 
 **How do I delete my account?**
-**Settings (gear icon on the Home tab) → Data & Privacy → Delete account.** This permanently deletes your account and all your data, including progress photos. It can't be undone. If you have a Premium subscription, cancel it separately in your Apple ID settings (deleting your account does not cancel it).
+**Profile → Data & Privacy → Delete account.** This permanently deletes your account and all your data, including progress photos. It can't be undone. If you have a Premium subscription, cancel it separately in your Apple ID settings (deleting your account does not cancel it).
 
 ---
 
