@@ -40,7 +40,7 @@ These Terms are an agreement between you and the operator of CalDefiq, **Muhamma
 - An App Store subscription unlocks Premium for one CalDefiq account.
 
 ## 6. Deleting your account
-- You can delete your account at any time in **Profile → Data & Privacy → Delete account** (open Profile with the person or gear icon at the top of the Home tab). This permanently deletes your account and data, as described in the Privacy Policy, and cannot be undone.
+- You can delete your account at any time in **Profile → Data & Privacy → Delete account** (open Profile with the person or gear icon at the top of the Home tab). This permanently deletes your account, your data and your saved photos, as described in the Privacy Policy, and cannot be undone.
 - **Deleting your account does not cancel your Apple subscription.** Cancel it in your Apple ID settings to stop future charges.
 
 ## 7. Your responsibilities

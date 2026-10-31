@@ -38,7 +38,13 @@ They are estimates. Portions, sauces and cooking oil are hard to see in a photo.
 The free plan includes 2 AI photo scans, 3 assistant messages and 3 barcode lookups a day. Premium includes 10 AI scans a day (up to 250 a month), 20 assistant messages a day (up to 350 a month) and unlimited barcodes. Failed scans don't count. Daily allowances reset at **midnight in your own time zone**; monthly ones at midnight on the 1st.
 
 **Are my meal photos stored?**
-No. Meal photos are sent securely to our AI provider (OpenAI) to be analysed and are not kept by CalDefiq. Only the result is saved. Progress photos you choose to save are kept in a private storage area only you can access.
+Every scanned photo is sent securely to our AI provider (OpenAI) to be analysed. When you **log** a meal from a scan, CalDefiq saves its photo **privately** in your account so you can see it in your Diary and Scan History; only you can see it. To stop saving photos, turn off **Profile → Save meal photos**. To delete one photo, open the meal in your Diary and tap **Delete photo**; to delete them all, use **Profile → Data & Privacy → Delete all meal photos**. Progress photos are also kept in private storage only you can access.
+
+**Why can't I see a walk's route map on my new phone?**
+For your privacy, detailed walking routes (GPS) are kept only on the phone that recorded them. Your walk's time, distance, steps and calories are saved to your account and appear on every phone, but the route map doesn't move to a new phone and is lost if CalDefiq is deleted.
+
+**What does Clear chat delete?**
+The text of your conversation with CalDefiq AI, including any suggestions. CalDefiq keeps only a usage record without text (time and AI cost), so daily limits keep working.
 
 **Does CalDefiq show ads?**
 No. CalDefiq has no ads on any plan, ever.

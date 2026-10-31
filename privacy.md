@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # CalDefiq Privacy Policy
 
-<!-- [[OWNER: HOLD — update after the meal-photo, chat-clearing and GPS-route decisions are built and tested, and the worldwide/13+ compliance items are resolved]] -->
+<!-- [[OWNER: HOLD — publish only after migrations 0016-0018 + the app update are deployed (this text describes them), and the worldwide/13+ compliance decisions are made]] -->
 
 **Last updated:** 31 October 2026
 
@@ -20,7 +20,7 @@ This policy explains what information the CalDefiq app collects, why, who proces
 
 - CalDefiq is a calorie, nutrition and fitness tracker. It stores what you log (meals, weight, workouts and similar) in your private account.
 - **No ads, ever.** CalDefiq contains no advertising, analytics or tracking software. We do not sell your data or share it with advertisers or data brokers.
-- When you scan a meal photo, the photo is sent to **OpenAI** for analysis. **We do not keep the photo.**
+- When you scan a meal photo, the photo is sent to **OpenAI** for analysis. If you log that meal, its photo is **saved privately** in your account so you can see it later (you can turn this off, or delete photos, at any time).
 - You can **export** your data or **delete your account** in the app at any time: **Profile → Data & Privacy** (open Profile with the person or gear icon at the top of the Home tab).
 
 ---
@@ -48,7 +48,7 @@ Meals and foods you log (name, portion, calories, protein, carbs, fat), saved me
 
 ### 2.4 Steps and recorded walks
 - **Steps:** with your permission ("Motion & Fitness"), CalDefiq reads your iPhone's daily step count and stores one total per day in your account, so it follows you to a new phone.
-- **Recorded walks:** only after you tap **Start** on a walk, CalDefiq uses your location to draw your route and measure distance and calories. If you allow it, tracking continues while your phone is locked, until you tap **Finish**. We store the walk's start and end time, distance, steps, calorie estimate and **route (GPS points)**. Nothing is recorded before Start or after Finish, and you can delete any walk.
+- **Recorded walks:** only after you tap **Start** on a walk, CalDefiq uses your location to draw your route and measure distance and calories. If you allow it, tracking continues while your phone is locked, until you tap **Finish**. Your account stores the walk's **summary**: start and end time, distance, steps and calorie estimate. The detailed **route (GPS points) stays only on the phone that recorded it**: it is never uploaded to our servers, does not move to a new phone, and is lost if CalDefiq is deleted from that phone. Nothing is recorded before Start or after Finish. Deleting a walk deletes its summary and its route; deleting your account also deletes the routes stored on that phone.
 
 ### 2.5 Country detection
 If you tap the button to detect your country, CalDefiq asks for your location once, at the lowest accuracy, and converts it to a country on your phone using Apple's location service. **The coordinates are discarded**; only the country you confirm is saved. You can also choose your country manually.
@@ -58,15 +58,17 @@ Country, region, language, time zone, currency, units, favourite cuisines, remin
 **Why:** to show the right units, local dishes and prices, and to reset daily limits at midnight in your own time zone.
 
 ### 2.7 Photos
-- **Meal photos for AI scanning:** when you scan a meal (or a "Before & After" leftovers photo), the photo is sent securely from your phone to our server, and from there to **OpenAI** for analysis. **We do not store the photo.** We store only the result (foods, portions and nutrition estimates) so you can see your scan history. Temporary copies on your phone are deleted after use.
+- **Meal photos for AI scanning:** when you scan a meal (or a "Before & After" photo), the photo is sent securely from your phone to our server, and from there to **OpenAI** for analysis. We store the result (foods, portions and nutrition estimates) for your scan history.
+- **Saved meal photos:** when you **log** a meal from a normal scan, CalDefiq saves that photo (resized, plus a small thumbnail) in a **private** storage area of your account, so you can see it in your Diary, the meal's details and Scan History. Only your account can access these photos; they are shown only through short-lived private links and are never public. Photos of meals you don't log, and Before & After photos, are not saved. **Save meal photos** is on by default; you can turn it off in **Profile**: photos are then still analysed by OpenAI but not saved (photos already saved stay until you delete them). A saved photo is deleted when you delete it, when you delete the last diary item of that meal, when you delete the scan from Scan History, when you use **Profile → Data & Privacy → Delete all meal photos**, or when you delete your account. If an upload fails (for example offline), the photo waits on your phone for up to 7 days and is retried automatically.
+- Temporary copies of photos on your phone are deleted after use.
 - **Progress photos:** if you add progress photos, they are kept in a **private** storage area that only your account can access, and shown only through short-lived links. They are never public.
 - **Saving images:** if you save an image (for example a share card) to Photos, CalDefiq asks only for permission to *add* to your library. It does not read your library.
 
 ### 2.8 AI scan records
-For each AI scan we keep the date and time, status, the AI's result, the result you confirmed, and technical usage data (AI "tokens" used and estimated cost). If you delete a scan, its content is erased and hidden, but a bare record (time, status, tokens, cost) is kept so daily limits and cost controls cannot be bypassed. That bare record is deleted when you delete your account.
+For each AI scan we keep the date and time, status, the AI's result, the result you confirmed, and technical usage data (AI "tokens" used and estimated cost). If you delete a scan, its content and saved photo are erased and the scan is hidden, but a bare record (time, status, tokens, cost) is kept so daily limits and cost controls cannot be bypassed. That bare record is deleted when you delete your account.
 
 ### 2.9 CalDefiq AI assistant
-- **Messages:** we store your messages and the assistant's replies so you can see the conversation. Messages about sensitive topics (for example medical conditions, eating disorders or self-harm) are labelled so the assistant can respond carefully. You can clear your history in the app; cleared messages are emptied and hidden, and fully deleted when you delete your account.
+- **Messages:** we store your messages and the assistant's replies so you can see the conversation. Messages about sensitive topics (for example medical conditions, eating disorders or self-harm) are labelled so the assistant can respond carefully. When you tap **Clear chat**, the text of your messages and replies, their safety labels and any suggested actions are erased. Only a usage record without any text is kept for each message (time, whether it was yours or a reply, the AI model, token count, estimated cost and whether the AI call failed), because daily limits and cost controls depend on it. Usage records older than 62 days are deleted the next time you clear the chat, and all of them are deleted when you delete your account.
 - **Your records (optional, off by default):** only if you turn on **Use my CalDefiq records**, the assistant reads a summary of your last 7 days (meals, water, daily step totals, workouts, walks, weigh-ins and goals), read-only. The same applies to the optional weekly progress report. You can turn it off at any time.
 - **How replies are written:** your message, and the 7-day summary only if you turned it on, are sent to **OpenAI** to write the reply. Some simple questions (such as "how many calories do I have left?") are answered by CalDefiq itself without AI. We never send your name, email or account ID. The assistant can suggest adding water or a food, but nothing is added unless you confirm.
 
@@ -120,7 +122,7 @@ We use these providers to run CalDefiq. They process data on our behalf, only to
 
 | Provider | What they do | What they receive |
 |---|---|---|
-| **Supabase** | Database, sign-in, private photo storage and server functions. Also sends verification and password-reset emails, directly or through its email delivery service. | The account data described above. Database region: **AWS ap-northeast-2 (Seoul, South Korea)**. |
+| **Supabase** | Database, sign-in, private photo storage (progress photos and saved meal photos) and server functions. Also sends verification and password-reset emails, directly or through its email delivery service. | The account data described above. Database region: **AWS ap-northeast-2 (Seoul, South Korea)**. |
 | **OpenAI** | Analyses meal photos; writes assistant replies and weekly reports. | The photo (for Before & After, also the food names from your earlier scan); for the assistant, your message and, only if you turned it on, the 7-day summary. **Not** your name, email or account ID. We ask OpenAI not to store requests (`store: false`). Under OpenAI's API data policy, requests may still be kept **for up to 30 days** to detect abuse, then deleted, and OpenAI does not use API data to train its models by default. |
 | **USDA FoodData Central** | Food nutrition database (US government). | Search words and food names, sent from our server. |
 | **Open Food Facts** | Packaged-product database. | Barcode numbers, sent from our server. |
@@ -144,18 +146,20 @@ Where these laws apply, we process:
 ## 8. How long we keep data
 
 - **While your account exists:** we keep your data so the app works.
-- **When you delete an item:** meals, walks, photos and other items are deleted straight away. Deleted AI scans and cleared assistant messages keep only a bare record until you delete your account (sections 2.8 and 2.9).
-- **When you delete your account:** your account and all data linked to it are deleted from our database, and your progress photos are deleted from storage.
-- **Backups:** our hosting provider keeps automatic database backups for a limited time (up to 7 days), after which deleted data is overwritten.
-- **Technical logs:** server logs kept by our hosting provider for security and troubleshooting are deleted automatically (within 7 days).
+- **When you delete an item:** meals, walks, photos and other items are deleted straight away. Deleted AI scans keep only a bare usage record until you delete your account; cleared assistant messages keep only a usage record without text (sections 2.8 and 2.9).
+- **Saved meal photos:** kept until you delete them (section 2.7) or your account.
+- **Walking routes:** kept only on your phone, until you delete the walk, delete your account, or remove CalDefiq from the phone.
+- **When you delete your account:** your account and all data linked to it are deleted from our database, and your progress photos and saved meal photos are deleted from storage.
+- **Backups:** our hosting provider keeps automatic database backups for a limited time ([[OWNER: backup period of your Supabase plan — confirm in Supabase → Settings → Billing]]), after which deleted data is overwritten.
+- **Technical logs:** server logs kept by our hosting provider for security and troubleshooting are deleted automatically ([[OWNER: log retention of your Supabase plan]]).
 - **OpenAI:** up to 30 days, as described in section 5.
 
 ## 9. Your rights and choices
 
-- **Access and export:** Profile → Data & Privacy → **Export my data** (a copy in JSON format).
+- **Access and export:** Profile → Data & Privacy → **Export my data** (a copy in JSON format, including the walking routes stored on the phone you export from). Your saved photos can be viewed in the app.
 - **Correct:** edit your information in the app.
 - **Delete:** delete single entries in the app, or everything with Profile → Data & Privacy → **Delete account**.
-- **Withdraw consent:** turn off Apple Health, "Use my CalDefiq records", location, motion, camera, photos or notifications at any time in the app or in iPhone Settings.
+- **Withdraw consent:** turn off Save meal photos, Apple Health, "Use my CalDefiq records", location, motion, camera, photos or notifications at any time in the app or in iPhone Settings.
 - **Other requests:** email [caldefiq@gmail.com](mailto:caldefiq@gmail.com). We may need to confirm the request comes from the account owner (for example, by replying from your account email).
 
 Depending on where you live (for example the EU, UK, California or other regions with privacy laws), you may have additional rights, such as objecting to or restricting processing, and the right to complain to your local data-protection authority. We do not sell or "share" personal information as defined by California law.
@@ -166,7 +170,7 @@ CalDefiq is not intended for children. You must be at least **13 years old** to 
 
 ## 11. Security
 
-Database rules allow only your signed-in account to read or change your data. Connections are encrypted (HTTPS). Progress photos are stored privately and shown only through short-lived links. Secret keys are kept on our servers, never in the app. No system is perfectly secure, but we take reasonable measures to protect your data.
+Database rules allow only your signed-in account to read or change your data. Connections are encrypted (HTTPS). Progress photos and saved meal photos are stored privately, in a folder only your account can access, and shown only through short-lived links. Secret keys are kept on our servers, never in the app. No system is perfectly secure, but we take reasonable measures to protect your data.
 
 ## 12. Health disclaimer
 
