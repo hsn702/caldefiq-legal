@@ -8,7 +8,7 @@ permalink: /privacy/
 **Last updated:** [[OWNER: date you publish]]
 
 **Who we are:** CalDefiq is provided by [[OWNER: legal entity name, or your full legal name if you publish as an individual]], [[OWNER: postal address]] ("we", "us").
-**Contact:** [[OWNER: support / privacy email]]
+**Contact:** [caldefiq@gmail.com](mailto:caldefiq@gmail.com)
 **Website:** [[OWNER: confirm domain, e.g. caldefiq.com is proposed but NOT confirmed owned]]
 
 ---
@@ -29,7 +29,7 @@ We only collect what the app needs to work. "Your account" below means our datab
 ### 2.1 Account details
 | What | Why |
 |---|---|
-| Email address | To create your account, sign you in, and send you sign-in and password-reset codes. |
+| Email address | To create your account, sign you in, and send you email-verification and password-reset codes. |
 | Password (if you sign up with email) | To sign you in. It is stored only as a secure hash by our sign-in provider (Supabase Auth). We never see it. |
 | Your name (optional) | To greet you in the app. If you use **Sign in with Apple**, Apple may share your first name the first time you sign in; we keep only the first name. |
 | Sign-in provider details | If you choose **Sign in with Apple** or **Continue with Google**, that provider confirms who you are and shares your email (Apple may give you a private "Hide My Email" relay address). |
@@ -128,7 +128,7 @@ We use these service providers ("processors") to run CalDefiq. They may only use
 | **Open Food Facts** | Packaged-product database. | Barcode numbers only, sent from our server. |
 | **Apple** | Sign in with Apple, App Store payments, maps shown during walks, and turning a location into a country code on your phone. | What you share with Apple under Apple's own privacy policy. |
 | **Google** | Only if you choose "Continue with Google". | What you share with Google under Google's own privacy policy. |
-| **Email delivery** | Sends sign-in and password-reset codes. | Your email address. [[OWNER: name your email provider, e.g. Supabase's built-in email or the custom SMTP service you set up]] |
+| **Email delivery** | Sends email-verification and password-reset codes. | Your email address. [[OWNER: name your email provider, e.g. Supabase's built-in email or the custom SMTP service you set up]] |
 
 We do not sell, rent or trade your personal data.
 
@@ -150,7 +150,7 @@ Our servers and providers may be in countries other than yours (for example Sout
 - **Correct your data:** edit it in the app.
 - **Delete your data:** delete single entries in the app, or delete everything with Settings (gear icon on the Home tab) → Data & Privacy → **Delete account**.
 - **Permissions:** you can turn camera, photos, location, motion and notifications on or off at any time in the iPhone Settings app.
-- **Contact us** at [[OWNER: support / privacy email]] for any other request. Depending on where you live (for example the EU, UK or California), you may have more rights, including the right to complain to your local data-protection authority.
+- **Contact us** at [caldefiq@gmail.com](mailto:caldefiq@gmail.com) for any other request. Depending on where you live (for example the EU, UK or California), you may have more rights, including the right to complain to your local data-protection authority.
 
 ## 10. Children
 CalDefiq is not for children. You must be at least **[[OWNER: minimum age; the app currently accepts age 13 and up, consider 16 for the EU]]** years old to use it. The app does not allow a calorie deficit for users under 18. If you believe a child has given us data, contact us and we will delete it.
@@ -167,4 +167,4 @@ If we change this policy, we will update the date at the top and, for important 
 ## 14. Contact
 [[OWNER: legal entity name]]
 [[OWNER: postal address]]
-[[OWNER: support / privacy email]]
+[caldefiq@gmail.com](mailto:caldefiq@gmail.com)

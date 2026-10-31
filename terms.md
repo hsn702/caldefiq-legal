@@ -75,4 +75,4 @@ These Terms are governed by the laws of **[[OWNER: jurisdiction]]**. [[OWNER: co
 - You confirm you are not in a country under a US government embargo and are not on a US government list of prohibited or restricted parties.
 
 ## 13. Contact
-[[OWNER: legal entity name]], [[OWNER: postal address]], [[OWNER: support email]]
+[[OWNER: legal entity name]], [[OWNER: postal address]], [caldefiq@gmail.com](mailto:caldefiq@gmail.com)

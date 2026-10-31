@@ -10,7 +10,7 @@ permalink: /support/
 
 ## Need help with CalDefiq?
 
-Email us at **[[OWNER: support email]]**. We usually reply within [[OWNER: e.g. 2 business days]].
+Email us at **[caldefiq@gmail.com](mailto:caldefiq@gmail.com)**. We usually reply within [[OWNER: e.g. 2 business days]].
 
 To help us help you, please include:
 - your iPhone model and iOS version;
@@ -23,7 +23,7 @@ To help us help you, please include:
 ## Common questions
 
 **How do I sign in?**
-Use your email (with a password or a 6-digit code), **Sign in with Apple**, or **Continue with Google**. If you signed up with Apple or Google, use that same button again.
+Use your email and password, **Sign in with Apple**, or **Continue with Google**. When you create an account with email, we send a 6-digit code to confirm your address. If you signed up with Apple or Google, use that same button again.
 
 **I didn't get my 6-digit code.**
 Check your spam or junk folder and wait a minute. Codes expire, so request a new one if needed.
