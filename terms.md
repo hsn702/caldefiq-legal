@@ -7,14 +7,14 @@ permalink: /terms/
 
 **Last updated:** 31 October 2026
 
-These Terms are an agreement between you and the operator of CalDefiq, [[OWNER: operator legal name — see note before publishing]] ("CalDefiq", "we", "us"), about your use of the CalDefiq app. By creating an account or using CalDefiq, you agree to these Terms and to our [Privacy Policy](https://hsn702.github.io/caldefiq-legal/privacy/).
+These Terms are an agreement between you and the operator of CalDefiq, **Muhammad Hassan Adnan**, an individual developer ("CalDefiq", "we", "us"), about your use of the CalDefiq app. By creating an account or using CalDefiq, you agree to these Terms and to our [Privacy Policy](https://hsn702.github.io/caldefiq-legal/privacy/).
 
 ## 1. Who can use CalDefiq
 - You must be at least **13 years old**, or older if the law where you live requires it. If you are under the age of adulthood where you live, a parent or guardian must agree to these Terms for you.
 - You must give accurate information and keep your sign-in details secure. You are responsible for activity on your account.
 
 ## 2. Health and nutrition disclaimer
-- CalDefiq is a general **nutrition and fitness tracking tool**. It is **not** a medical device and does not diagnose, treat, cure or prevent any condition.
+- CalDefiq is a general **wellness, nutrition and fitness tracking tool**. It is **not** a medical device and does not diagnose, treat, cure or prevent any condition.
 - Calorie targets, AI photo estimates, food-database values, calories burned, step counts and walk distances are **estimates** and may be inaccurate.
 - The CalDefiq AI assistant gives general information only. Its answers can be wrong, and it is not a doctor, dietitian or therapist.
 - Talk to a qualified health professional before starting a diet or exercise plan, especially if you are pregnant or breastfeeding, have a medical condition, take medication, or have (or had) an eating disorder.
@@ -67,7 +67,7 @@ We may limit, suspend or close accounts that break these rules. Where reasonable
 - **Nothing in these Terms limits or excludes any rights you have under consumer-protection law that cannot legally be limited or excluded**, or our liability where it cannot legally be limited.
 
 ## 11. Governing law and disputes
-These Terms are governed by the laws of [[OWNER: country whose law governs these Terms — see note before publishing]], without affecting any mandatory consumer-protection rights you have under the law of the country where you live. If you are a consumer, you may bring a claim in the courts where you live. Before starting a formal dispute, please contact us at [caldefiq@gmail.com](mailto:caldefiq@gmail.com) so we can try to resolve it.
+These Terms are governed by the laws of the **United Arab Emirates**, without affecting any mandatory consumer-protection rights you have under the law of the country where you live. If you are a consumer, you may bring a claim in the courts where you live. Before starting a formal dispute, please contact us at [caldefiq@gmail.com](mailto:caldefiq@gmail.com) so we can try to resolve it.
 
 ## 12. Apple-specific terms
 - These Terms are between you and us, not Apple. Apple is not responsible for CalDefiq or its content.

@@ -10,7 +10,7 @@ permalink: /support/
 
 ## Need help with CalDefiq?
 
-Email us at **[caldefiq@gmail.com](mailto:caldefiq@gmail.com)**. We aim to reply within 2 business days. You can also email us from the app: **Profile → Help & Support → Email support** (open Profile with the person or gear icon at the top of the Home tab).
+Email us at **[caldefiq@gmail.com](mailto:caldefiq@gmail.com)**. We aim to reply within 3–5 business days. You can also email us from the app: **Profile → Help & Support → Email support** (open Profile with the person or gear icon at the top of the Home tab).
 
 To help us help you, please include:
 - your iPhone model and iOS version;

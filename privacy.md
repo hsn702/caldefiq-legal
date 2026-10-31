@@ -5,11 +5,13 @@ permalink: /privacy/
 
 # CalDefiq Privacy Policy
 
+<!-- [[OWNER: HOLD — update after the meal-photo, chat-clearing and GPS-route decisions are built and tested, and the worldwide/13+ compliance items are resolved]] -->
+
 **Last updated:** 31 October 2026
 
 This policy explains what information the CalDefiq app collects, why, who processes it, how long it is kept, and the choices you have.
 
-**Who is responsible for your data:** CalDefiq is operated by [[OWNER: operator legal name — see note before publishing]] ("CalDefiq", "we", "us"), who decides how your data is used (the "data controller").
+**Who is responsible for your data:** CalDefiq is operated by **Muhammad Hassan Adnan**, an individual developer based in the United Arab Emirates ("CalDefiq", "we", "us"), who decides how your data is used (the "data controller").
 **Contact:** [caldefiq@gmail.com](mailto:caldefiq@gmail.com) for any privacy question or request.
 
 ---
