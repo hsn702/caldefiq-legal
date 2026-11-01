@@ -1,5 +1,5 @@
-<!--meta {"slug":"privacy","order":1,"title":"Privacy Policy","short":"Privacy Policy","nav":"Privacy","eyebrow":"Your data","description":"What the CalDefiq app collects, why, who processes it, how long it is kept, and the choices and rights you have.","lede":"What CalDefiq collects, why we need it, who processes it, how long it is kept, and the choices you have. Written to match how the app actually works.","updated":"[[OWNER: effective date of this policy]]"} -->
-<p class="callout warn">[[OWNER: publish together with the app release that includes private saved meal photos, Clear chat erasure and on-phone walking routes (database updates 0016–0018), because this policy describes that release]]</p>
+<!--meta {"slug":"privacy","order":1,"title":"Privacy Policy","short":"Privacy Policy","nav":"Privacy","eyebrow":"Your data","description":"What the CalDefiq app collects, why, who processes it, how long it is kept, and the choices and rights you have.","lede":"What CalDefiq collects, why we need it, who processes it, how long it is kept, and the choices you have. Written to match how the app actually works.","updated":"November 1, 2026"} -->
+<div class="callout warn" id="feature-status"><p><strong>Feature status (November 1, 2026).</strong> This policy describes CalDefiq including three privacy updates that are being rolled out and are <strong>not yet live</strong> on our servers: saving logged meal photos privately in your account, Clear chat also erasing safety labels and suggested actions, and a server safeguard that refuses to store walking routes. Until they are live: scanned meal photos are analysed but <strong>not saved</strong> in your account (the Save meal photos and Delete photo options apply once saving is live); Clear chat erases the text of your messages and replies but keeps each cleared message’s safety label and any suggested action, which are removed when you delete your account. We will update this notice when the rollout is complete.</p></div>
 
 <section>
 <h2 id="who-we-are">1. Who is responsible for your data</h2>
@@ -141,7 +141,7 @@
 <li><strong>What it does not store:</strong> the full text of emails and their attachments stay in Gmail. They are fetched from Gmail only when we open the conversation, and are not saved in our database.</li>
 <li><strong>Linking to your account:</strong> if the email comes from the same verified email address as a CalDefiq account, the conversation is linked to that account automatically, so we can see your plan and account status while helping you. We can also link or unlink a conversation by hand (for example if you wrote from another address); each manual change is recorded with a reason.</li>
 <li><strong>Replies</strong> are sent from {{email}} through Gmail and are kept in that mailbox.</li>
-<li><strong>Retention:</strong> support emails are kept in the Gmail mailbox, and conversation details in our support inbox, for [[OWNER: how long support emails and support-inbox records are kept, for example 24 months after the last message]]. You can ask us to delete your support correspondence at any time.</li>
+<li><strong>Retention:</strong> support emails are kept in the Gmail mailbox, and conversation details in our support inbox, for as long as we need them to answer you, follow up on your request and keep a record of our support history. We review them periodically and delete those we no longer need; we have not set a fixed period. You can ask us to delete your support correspondence at any time.</li>
 </ul>
 <p>Please don’t send passwords, verification codes or medical records by email.</p>
 </section>
@@ -195,11 +195,11 @@
 <tr><td>Cleared assistant messages</td><td>A usage record without text; records older than 62 days are removed at your next Clear chat; all removed with your account.</td></tr>
 <tr><td>Saved meal photos and progress photos</td><td>Until you delete them or your account.</td></tr>
 <tr><td>Walking routes</td><td>Only on your phone, until you delete the walk or your account, or remove CalDefiq from the phone.</td></tr>
-<tr><td>Database backups</td><td>Our hosting provider keeps automatic backups for [[OWNER: backup period of your Supabase plan]], after which deleted data is overwritten.</td></tr>
-<tr><td>Server logs</td><td>Kept by our hosting provider for security and troubleshooting, then deleted automatically ([[OWNER: log retention of your Supabase plan]]).</td></tr>
+<tr><td>Database backups</td><td>Our current hosting plan (Supabase Free) does not include automatic database backups that we can restore from. If we move to a plan with backups, they expire automatically on the provider’s schedule and are used only to restore the service after a failure; we will update this table.</td></tr>
+<tr><td>Server logs</td><td>Kept by our hosting provider for security and troubleshooting, then deleted automatically after the limited period set by our hosting plan.</td></tr>
 <tr><td>OpenAI requests</td><td>Up to 30 days under OpenAI’s API data policy (section 9).</td></tr>
 <tr><td>Support emails and support-inbox records</td><td>As described in {{link:privacy#support-processing}}.</td></tr>
-<tr><td>Administrative audit log</td><td>Kept while CalDefiq operates, as our tamper-proof record of administrative actions. Entries can include an account identifier, the reason for the action and, for support emails we send, the recipient address and subject.</td></tr>
+<tr><td>Administrative audit log</td><td>Kept as long as needed for security, accountability and legal purposes, as our tamper-proof record of administrative actions, and reviewed periodically. Entries can include an account identifier, the reason for the action and, for support emails we send, the recipient address and subject.</td></tr>
 </tbody></table></div>
 <p>What happens when you delete your account, and the few things that remain, is explained on the {{link:delete-account}} page.</p>
 </section>
