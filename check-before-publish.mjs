@@ -1,10 +1,5 @@
-// Refuses to publish while any [[OWNER: ...]] blank is left.
-import { readdirSync, readFileSync } from 'node:fs';
-let n = 0;
-for (const f of readdirSync('.').filter((f) => f.endsWith('.md'))) {
-  const left = readFileSync(f, 'utf8').match(/\[\[OWNER:[^\]]*\]\]/g) ?? [];
-  for (const b of left) console.log(`${f}: ${b}`);
-  n += left.length;
-}
-console.log(n ? `${n} blank(s) left: DO NOT PUBLISH` : 'No blanks left: ready to publish');
-process.exit(n ? 1 : 0);
+// Refuses to publish while any [[OWNER: …]] blank is left (or anything else the strict build rejects).
+import { spawnSync } from 'node:child_process';
+const r = spawnSync(process.execPath, ['build.mjs', '--publish'], { stdio: 'inherit' });
+console.log(r.status === 0 ? 'No blanks left: ready to publish (site/).' : 'DO NOT PUBLISH: fix the items above first.');
+process.exit(r.status ?? 1);

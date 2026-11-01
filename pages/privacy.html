@@ -1,0 +1,255 @@
+<!--meta {"slug":"privacy","order":1,"title":"Privacy Policy","short":"Privacy Policy","nav":"Privacy","eyebrow":"Your data","description":"What the CalDefiq app collects, why, who processes it, how long it is kept, and the choices and rights you have.","lede":"What CalDefiq collects, why we need it, who processes it, how long it is kept, and the choices you have. Written to match how the app actually works.","updated":"[[OWNER: effective date of this policy]]"} -->
+<p class="callout warn">[[OWNER: publish together with the app release that includes private saved meal photos, Clear chat erasure and on-phone walking routes (database updates 0016–0018), because this policy describes that release]]</p>
+
+<section>
+<h2 id="who-we-are">1. Who is responsible for your data</h2>
+<p>CalDefiq is operated by <strong>Muhammad Hassan Adnan</strong>, an individual developer based in the United Arab Emirates (“CalDefiq”, “we”, “us”). We decide how your personal data is used, which makes us the <strong>data controller</strong>.</p>
+<p><strong>Privacy contact:</strong> {{email}}. Use this address for any privacy question, request or complaint.</p>
+</section>
+
+<section>
+<h2 id="summary">2. Summary</h2>
+<div class="summary-grid">
+  <div><strong>Your private tracker</strong><p>Meals, weight, workouts, walks and photos you log are stored in your private account.</p></div>
+  <div><strong>No ads, ever</strong><p>No advertising, analytics or tracking software. We do not sell your data or share it for advertising.</p></div>
+  <div><strong>AI on request</strong><p>Meal photos you scan, and messages to CalDefiq AI, are sent to OpenAI to produce estimates and replies.</p></div>
+  <div><strong>You stay in control</strong><p>Export your data or delete your account in the app at any time: <span class="path">Profile → Data &amp; Privacy</span>.</p></div>
+</div>
+</section>
+
+<section>
+<h2 id="data-we-collect">3. Information we collect and why</h2>
+<p>“Your account” means our database and private file storage, hosted by Supabase (see {{link:privacy#providers}}).</p>
+
+<h3 id="account-info">3.1 Account information</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>What</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Email address</td><td>To create your account, sign you in, and send verification and password-reset codes.</td></tr>
+<tr><td>Password (email sign-up only)</td><td>To sign you in. It is stored only as a secure hash by our sign-in provider (Supabase Auth). We cannot see it.</td></tr>
+<tr><td>Name (optional)</td><td>To greet you in the app. With Sign in with Apple, Apple may share your name the first time you sign in; we keep only the first name.</td></tr>
+<tr><td>Sign-in provider details</td><td>With Sign in with Apple or Continue with Google (where available), that provider confirms who you are and shares your email address. Apple may give a private “Hide My Email” relay address instead.</td></tr>
+<tr><td>User ID</td><td>A random code that links your data to your account.</td></tr>
+</tbody></table></div>
+
+<h3 id="body-health">3.2 Body and health information you enter</h3>
+<p>Sex, age (stored as birth year), height, weight, activity level, goal (lose, maintain or gain), target weight, calorie and macro targets, weight history, optional body measurements (waist, hips, chest, arm, thigh, neck, body-fat percentage) and notes, and whether you told us you are pregnant, breastfeeding or have a health condition that affects what you eat.</p>
+<p><strong>Why:</strong> to calculate your targets, apply safety limits and show your progress. <strong>This is health information.</strong> We use it only to provide CalDefiq to you.</p>
+
+<h3 id="logs">3.3 Food, water and fitness logs</h3>
+<p>Meals and foods you log (name, portion, calories, protein, carbs, fat), saved meals and recipes, custom foods and corrections, water intake, workouts (type, duration, sets, reps, weights, distances, estimated calories burned) and your step goal. <strong>Why:</strong> this is the core of the app.</p>
+
+<h3 id="steps-walks">3.4 Steps and recorded walks (GPS)</h3>
+<ul>
+<li><strong>Steps:</strong> with your permission (“Motion &amp; Fitness”), CalDefiq reads your iPhone’s daily step count and stores one total per day in your account, so it follows you to a new phone.</li>
+<li><strong>Recorded walks:</strong> only after you tap <strong>Start</strong> on a walk, CalDefiq uses your location to draw your route and measure distance and calories. If you allow it, tracking continues while your phone is locked, until you tap <strong>Finish</strong>. Nothing is recorded before Start or after Finish.</li>
+<li><strong>What is stored where:</strong> your account stores the walk’s <strong>summary</strong> (start and end time, distance, steps and calorie estimate). The detailed <strong>route (GPS points) stays only on the phone that recorded it</strong>: it is not uploaded to our servers, does not move to a new phone, and is lost if CalDefiq is removed from that phone.</li>
+<li>Deleting a walk deletes its summary and its route. Deleting your account also deletes the routes stored on the phone you delete it from.</li>
+</ul>
+
+<h3 id="country">3.5 Country detection</h3>
+<p>If you tap the button to detect your country, CalDefiq asks for your location once, at the lowest accuracy, and converts it to a country on your phone using Apple’s location service. The coordinates are discarded; only the country you confirm is saved. You can also choose your country manually.</p>
+
+<h3 id="preferences">3.6 Region and preferences</h3>
+<p>Country, region, language, time zone, currency, units, favourite cuisines, reminder settings and other app preferences. <strong>Why:</strong> to show the right units, local dishes and prices, and to reset daily limits at midnight in your own time zone.</p>
+
+<h3 id="photos">3.7 Photos</h3>
+<ul>
+<li><strong>Meal photos for AI scanning:</strong> when you scan a meal (or a “Before &amp; After” photo), the photo is sent securely from your phone to our server, and from there to <strong>OpenAI</strong> for analysis. We store the result (foods, portions and nutrition estimates) in your scan history.</li>
+<li><strong>Saved meal photos:</strong> when you <strong>log</strong> a meal from a normal scan, CalDefiq saves that photo (resized, plus a small thumbnail) in a <strong>private</strong> storage area of your account, so you can see it in your Diary, the meal’s details and Scan History. Only your account can access these photos; they are shown only through short-lived private links and are never public. Photos of meals you don’t log, and Before &amp; After photos, are not saved.</li>
+<li><strong>Turning it off:</strong> <span class="path">Save meal photos</span> is on by default. You can turn it off in <span class="path">Profile</span>: photos are then still analysed by OpenAI but not saved. Photos already saved stay until you delete them.</li>
+<li><strong>Deleting saved meal photos:</strong> a photo is deleted when you delete it, when you delete the last diary item of that meal, when you delete the scan from Scan History, when you use <span class="path">Profile → Data &amp; Privacy → Delete all meal photos</span>, or when you delete your account. If an upload fails (for example offline), the photo waits on your phone for up to 7 days and is retried automatically.</li>
+<li><strong>Progress photos:</strong> kept in a private storage area that only your account can access, shown only through short-lived links, and never public.</li>
+<li><strong>Saving images to Photos:</strong> if you save an image (for example a share card), CalDefiq asks only for permission to <em>add</em> to your library. It does not read your library.</li>
+</ul>
+
+<h3 id="scan-records">3.8 AI scan records</h3>
+<p>For each AI scan we keep the date and time, status, the AI’s result, the result you confirmed, and technical usage data (AI “tokens” used and estimated cost). If you delete a scan, its content and saved photo are erased and the scan is hidden, but a bare record (time, status, tokens, cost) is kept so daily limits and cost controls cannot be bypassed. That bare record is deleted when you delete your account.</p>
+
+<h3 id="assistant">3.9 CalDefiq AI assistant</h3>
+<ul>
+<li><strong>Messages:</strong> we store your messages and the assistant’s replies so you can see the conversation. Messages about sensitive topics (for example medical conditions, eating disorders or self-harm) are labelled so the assistant can respond carefully.</li>
+<li><strong>Clear chat:</strong> erases the text of your messages and replies, their safety labels and any suggested actions. Only a usage record without any text is kept for each message (time, whether it was yours or a reply, the AI model, token count, estimated cost and whether the AI call failed), because daily limits and cost controls depend on it. Usage records older than 62 days are deleted the next time you clear the chat, and all of them when you delete your account.</li>
+<li><strong>Your records (optional, off by default):</strong> only if you turn on <span class="path">Use my CalDefiq records</span> does the assistant read a summary of your last 7 days (meals, water, daily step totals, workouts, walks, weigh-ins and goals), read-only. The same applies to the optional weekly progress report.</li>
+<li><strong>How replies are written:</strong> your message, and the 7-day summary only if you turned it on, are sent to <strong>OpenAI</strong> to write the reply. Some simple questions (such as “how many calories do I have left?”) are answered by CalDefiq itself without AI. We never send your name, email or account ID. The assistant can suggest adding water or a food, but nothing is added unless you confirm.</li>
+</ul>
+<p>See also the {{link:ai-disclaimer}}.</p>
+
+<h3 id="budget">3.10 Food budget and shopping</h3>
+<p>If you use the Budget Planner or What’s in My Fridge?, we store your budget, the food spending you enter (amount, currency, category, note), ingredient prices, pantry items and shopping list.</p>
+
+<h3 id="food-search">3.11 Food search and barcodes</h3>
+<p>Search words and barcode numbers go to our server, which looks them up in <strong>USDA FoodData Central</strong> and <strong>Open Food Facts</strong>. We do not send your name, email or account ID to them. We count lookups per day (for daily limits) but do not keep a history of your searches.</p>
+
+<h3 id="premium-usage">3.12 Premium and usage records</h3>
+<ul>
+<li>Daily (and, for Premium, monthly) counts of AI scans, barcode lookups and assistant messages, to apply plan limits.</li>
+<li>If you subscribe to Premium: plan (monthly or yearly), status, renewal and expiry dates, and the App Store product and transaction identifiers. <strong>Payment is handled entirely by Apple.</strong> We never see or store your card or bank details. See the {{link:subscriptions}}.</li>
+<li>If we give you complimentary Premium access (for example as a tester), we record the level, period and the reason we gave it.</li>
+</ul>
+
+<h3 id="reminders">3.13 Reminders</h3>
+<p>Reminders are local notifications scheduled on your phone and are off by default. We store only your reminder settings. We do not send marketing notifications.</p>
+
+<h3 id="support-emails">3.14 Support emails</h3>
+<p>If you email {{email}}, we receive your email address, your name as it appears in your email, your message, any attachments, and the app version and phone system if you used the pre-filled email in the app. How we handle support email is explained in {{link:privacy#support-processing}}.</p>
+
+<h3 id="not-collected">3.15 What we do not collect</h3>
+<ul>
+<li>No advertising identifiers (IDFA), ad networks, ad tracking or data brokers.</li>
+<li>No analytics, tracking or crash-reporting software.</li>
+<li>No contacts, microphone, browsing history or data from other apps.</li>
+<li>No payment card details.</li>
+</ul>
+</section>
+
+<section>
+<h2 id="apple-health">4. Apple Health</h2>
+<p>Connecting Apple Health is optional. If you connect it, CalDefiq <strong>reads</strong> (never writes) steps, walking and running distance, workouts and active energy. You can turn access off at any time in iPhone <span class="path">Settings → Health → Data Access &amp; Devices → CalDefiq</span>.</p>
+<p>As Apple requires, data from Apple Health:</p>
+<ul>
+<li>is used only to show your activity and calorie information in CalDefiq;</li>
+<li>is never used for advertising or marketing;</li>
+<li>is never sold, or shared with advertisers, data brokers or information resellers.</li>
+</ul>
+<p><strong>What is saved to your account,</strong> so your history is the same on every device: one step total per day (the higher of your iPhone’s count and Apple Health’s total, never added together), and a summary of each imported workout (type, start and end time, duration, distance, active calories, and the name of the recording app or device). Duplicate workouts are not counted twice, and a workout you delete in Apple Health stops counting.</p>
+<p>You can disconnect Apple Health and delete everything CalDefiq imported from it at any time in <span class="path">Profile → Apple Health</span>. This does not change anything in Apple Health itself. If you turn on <span class="path">Use my CalDefiq records</span> for the assistant, your daily step totals (which may include Apple Health steps) are part of the 7-day summary; imported workouts are not sent to the assistant.</p>
+</section>
+
+<section>
+<h2 id="widgets">5. Home Screen widgets</h2>
+<p>CalDefiq widgets show today’s summary (calories left, protein, carbs, fat, steps and water). The app shares this summary with the widget on your phone only (through an iOS “App Group”). Anyone who can see your screen may see it. When you log out, the widget stops showing your data.</p>
+</section>
+
+<section>
+<h2 id="how-we-use">6. How we use your information</h2>
+<ul>
+<li>To provide the app: your diary, targets, progress, AI scans, assistant, walks and Premium features.</li>
+<li>To apply fair-use limits, prevent abuse and keep AI costs under control.</li>
+<li>To answer your support requests.</li>
+<li>To keep CalDefiq secure, investigate problems and comply with the law.</li>
+</ul>
+<p>We do not use your information for advertising, we do not sell it, and we do not build marketing profiles.</p>
+<p><strong>Automated processing:</strong> CalDefiq calculates calorie targets and AI estimates automatically, and applies plan limits automatically. These produce suggestions and limits inside the app; they do not make decisions that have legal or similarly significant effects on you.</p>
+</section>
+
+<section>
+<h2 id="support-processing">7. Support emails and our private support inbox</h2>
+<p>Support email to {{email}} is received by <strong>Gmail</strong> (Google). To answer you, we use our private <strong>Command Center</strong>, an internal tool that only the CalDefiq owner can open, protected by two-step verification. It connects to the support mailbox through Google’s official Gmail API.</p>
+<ul>
+<li><strong>What our database stores about a support conversation:</strong> the sender and recipient addresses, the sender’s display name, the subject, Gmail’s short preview of the message, dates, whether it is read, whether it has attachments, and our own ticket information (status, priority and internal notes).</li>
+<li><strong>What it does not store:</strong> the full text of emails and their attachments stay in Gmail. They are fetched from Gmail only when we open the conversation, and are not saved in our database.</li>
+<li><strong>Linking to your account:</strong> if the email comes from the same verified email address as a CalDefiq account, the conversation is linked to that account automatically, so we can see your plan and account status while helping you. We can also link or unlink a conversation by hand (for example if you wrote from another address); each manual change is recorded with a reason.</li>
+<li><strong>Replies</strong> are sent from {{email}} through Gmail and are kept in that mailbox.</li>
+<li><strong>Retention:</strong> support emails are kept in the Gmail mailbox, and conversation details in our support inbox, for [[OWNER: how long support emails and support-inbox records are kept, for example 24 months after the last message]]. You can ask us to delete your support correspondence at any time.</li>
+</ul>
+<p>Please don’t send passwords, verification codes or medical records by email.</p>
+</section>
+
+<section>
+<h2 id="owner-access">8. Who at CalDefiq can see your information</h2>
+<p>CalDefiq is run by one person. The owner can use the private Command Center to look after accounts. It can show account and plan information (email, name, country, time zone, language, currency, sign-up date, email verification, last activity, Premium or complimentary status, daily usage counts and estimated AI cost).</p>
+<p>The Command Center does <strong>not</strong> show your meals, weights, measurements, photos, walking routes, health data or assistant conversations.</p>
+<p>Administrative actions (for example giving complimentary access, changing a limit for an account, suspending an account, linking a support conversation, or sending a support email) require a typed reason and two-step verification. They are recorded in an <strong>append-only audit log</strong> that cannot be edited.</p>
+</section>
+
+<section>
+<h2 id="providers">9. Service providers and third parties</h2>
+<p>We use these providers to run CalDefiq. They process data on our behalf, only to provide their service.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Provider</th><th>What they do</th><th>What they receive</th></tr></thead>
+<tbody>
+<tr><td><strong>Supabase</strong></td><td>Database, sign-in, private photo storage (progress photos and saved meal photos), server functions, and the support inbox records. Sends verification and password-reset emails, directly or through its email delivery service.</td><td>The account data described above. Database region: AWS ap-northeast-2 (Seoul, South Korea).</td></tr>
+<tr><td><strong>OpenAI</strong></td><td>Analyses meal photos; writes assistant replies and weekly reports.</td><td>The photo (for Before &amp; After, also the food names from your earlier scan); for the assistant, your message and, only if you turned it on, the 7-day summary. Not your name, email or account ID. We ask OpenAI not to store requests (<code>store: false</code>). Under OpenAI’s API data policy, requests may still be retained for up to 30 days to detect abuse, and OpenAI states that it does not use API data to train its models by default.</td></tr>
+<tr><td><strong>Google (Gmail)</strong></td><td>Hosts the support mailbox {{email}}; the Command Center reads and sends support email through the Gmail API. Also, only if you choose Continue with Google, confirms your identity.</td><td>Support emails you send us and our replies. For Continue with Google, what you share with Google under Google’s privacy policy.</td></tr>
+<tr><td><strong>USDA FoodData Central</strong></td><td>Food nutrition database (US government).</td><td>Search words and food names, sent from our server.</td></tr>
+<tr><td><strong>Open Food Facts</strong></td><td>Packaged-product database.</td><td>Barcode numbers, sent from our server.</td></tr>
+<tr><td><strong>Apple</strong></td><td>Sign in with Apple, App Store payments, maps during walks, on-device country detection, Apple Health.</td><td>What you share with Apple under Apple’s privacy policy.</td></tr>
+</tbody></table></div>
+<p>We do not sell, rent or trade your personal data, and we do not share it for advertising. We may disclose information if the law requires it, to protect people’s safety, or to protect CalDefiq against fraud or abuse.</p>
+</section>
+
+<section>
+<h2 id="transfers">10. International transfers</h2>
+<p>Your data is stored in South Korea (Supabase) and processed in the United States (OpenAI, Google, USDA) and other countries where our providers operate. These may have different data-protection laws from where you live. Where the law requires, we rely on our providers’ contractual safeguards (such as Standard Contractual Clauses in their data-processing terms) for these transfers.</p>
+</section>
+
+<section>
+<h2 id="legal-bases">11. Legal bases (EU, UK and similar laws)</h2>
+<p>Where these laws apply, we process:</p>
+<ul>
+<li>your account and logs <strong>to provide the service you asked for</strong> (contract);</li>
+<li><strong>health information</strong> you enter or connect <strong>with your explicit consent</strong>, which you can withdraw at any time by deleting that data, disconnecting Apple Health or deleting your account;</li>
+<li>usage and cost records (for example scan counters), support records and the administrative audit log for our <strong>legitimate interests</strong> in preventing abuse, keeping the service affordable, helping you and keeping CalDefiq secure;</li>
+<li>records we must keep <strong>to comply with the law</strong>.</li>
+</ul>
+</section>
+
+<section>
+<h2 id="retention">12. How long we keep data</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Data</th><th>How long</th></tr></thead>
+<tbody>
+<tr><td>Your account and logs</td><td>While your account exists. Items you delete (meals, walks, photos and others) are deleted when you delete them.</td></tr>
+<tr><td>Deleted AI scans</td><td>A bare usage record (time, status, tokens, cost) until you delete your account.</td></tr>
+<tr><td>Cleared assistant messages</td><td>A usage record without text; records older than 62 days are removed at your next Clear chat; all removed with your account.</td></tr>
+<tr><td>Saved meal photos and progress photos</td><td>Until you delete them or your account.</td></tr>
+<tr><td>Walking routes</td><td>Only on your phone, until you delete the walk or your account, or remove CalDefiq from the phone.</td></tr>
+<tr><td>Database backups</td><td>Our hosting provider keeps automatic backups for [[OWNER: backup period of your Supabase plan]], after which deleted data is overwritten.</td></tr>
+<tr><td>Server logs</td><td>Kept by our hosting provider for security and troubleshooting, then deleted automatically ([[OWNER: log retention of your Supabase plan]]).</td></tr>
+<tr><td>OpenAI requests</td><td>Up to 30 days under OpenAI’s API data policy (section 9).</td></tr>
+<tr><td>Support emails and support-inbox records</td><td>As described in {{link:privacy#support-processing}}.</td></tr>
+<tr><td>Administrative audit log</td><td>Kept while CalDefiq operates, as our tamper-proof record of administrative actions. Entries can include an account identifier, the reason for the action and, for support emails we send, the recipient address and subject.</td></tr>
+</tbody></table></div>
+<p>What happens when you delete your account, and the few things that remain, is explained on the {{link:delete-account}} page.</p>
+</section>
+
+<section>
+<h2 id="your-rights">13. Your rights and choices</h2>
+<ul>
+<li><strong>Access and export:</strong> <span class="path">Profile → Data &amp; Privacy → Export my data</span> gives you a copy in JSON format (including the walking routes stored on the phone you export from). Your saved photos can be viewed in the app.</li>
+<li><strong>Correct:</strong> edit your information in the app.</li>
+<li><strong>Delete:</strong> delete single entries in the app, or everything with <span class="path">Profile → Data &amp; Privacy → Delete account</span>. See {{link:delete-account}}.</li>
+<li><strong>Withdraw consent:</strong> turn off Save meal photos, Apple Health, Use my CalDefiq records, location, motion, camera, photos or notifications at any time, in the app or in iPhone Settings.</li>
+<li><strong>Other requests:</strong> email {{email}}. We may need to confirm that the request comes from the account owner, for example by asking you to write from your account email.</li>
+</ul>
+<h3 id="regional-rights">Regional rights</h3>
+<ul>
+<li><strong>EU, EEA and UK:</strong> you may have the right to access, correct, delete, restrict or object to processing, to data portability, and to complain to your local data-protection authority.</li>
+<li><strong>California and other US states with privacy laws:</strong> you may have the right to know, access, correct and delete personal information, and not to be discriminated against for using these rights. We do not sell or “share” personal information as those laws define it, and we do not use sensitive personal information to infer characteristics about you.</li>
+<li><strong>United Arab Emirates and other countries:</strong> you can use the rights your local data-protection law gives you by contacting us.</li>
+</ul>
+<p>We respond to requests within the time your local law requires.</p>
+</section>
+
+<section>
+<h2 id="children">14. Children</h2>
+<p>CalDefiq is not intended for children. You must be at least <strong>13 years old</strong> to use it, or older if the law where you live requires it. Users under 18 cannot set a weight-loss goal. If you believe a child has given us personal data, contact us and we will delete it.</p>
+</section>
+
+<section>
+<h2 id="security">15. Security</h2>
+<ul>
+<li>Database access rules allow only your signed-in account to read or change your data.</li>
+<li>Connections between the app, our servers and our providers use HTTPS encryption.</li>
+<li>Progress photos and saved meal photos are stored privately and shown only through short-lived links.</li>
+<li>Secret keys stay on our servers, never in the app.</li>
+<li>The owner-only Command Center requires two-step verification, and its administrative actions are logged.</li>
+</ul>
+<p>No system is perfectly secure, but we take reasonable measures to protect your data. If a breach affects your personal data, we will notify you and the authorities where the law requires it.</p>
+</section>
+
+<section>
+<h2 id="health-note">16. Health information is not medical advice</h2>
+<p>CalDefiq provides estimates and general wellness information, not medical advice. See the {{link:health-disclaimer}} and the {{link:ai-disclaimer}}.</p>
+</section>
+
+<section>
+<h2 id="changes">17. Changes to this policy</h2>
+<p>If we change this policy, we will update the date at the top and, for important changes, tell you in the app before they take effect.</p>
+</section>
+
+<section>
+<h2 id="contact">18. Contact</h2>
+<p>Privacy questions, requests or complaints: {{email}}. We aim to reply within 3–5 business days. See {{link:support}} for other help.</p>
+</section>
